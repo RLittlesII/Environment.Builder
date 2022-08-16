@@ -1,0 +1,3 @@
+[submodule "cupboard"]
+	path = cupboard
+	url = git@github.com:cupboard-project/cupboard.git

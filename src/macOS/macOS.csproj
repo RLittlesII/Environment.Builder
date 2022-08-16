@@ -9,7 +9,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\..\..\patriksvensson\cupboard\src\Cupboard\Cupboard.csproj" />
+      <ProjectReference Include="..\..\cupboard\src\Cupboard.Providers.MacOs\Cupboard.Providers.MacOs.csproj" />
+      <ProjectReference Include="..\..\cupboard\src\Cupboard\Cupboard.csproj" />
     </ItemGroup>
 
 </Project>

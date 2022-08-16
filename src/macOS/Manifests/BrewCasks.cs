@@ -57,7 +57,7 @@ public class BrewCasks : PackageManifest
         context
             .Resource<HomebrewPackage>(package)
             .IsCask()
-            .OnError(ErrorHandling.Ignore)
+            .OnError(ErrorOptions.IgnoreErrors)
             .After<BashScript>("Install Homebrew");
     }
 }
